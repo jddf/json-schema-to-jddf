@@ -1,5 +1,15 @@
 import { Schema } from "@jddf/jddf";
 
+/**
+ * Convert a JSON Schema schema into a JSON Data Definition schema.
+ *
+ * Please consult the README of this package for caveats about this function. In
+ * particular, note that not all variations of JSON Schema are accepted, and the
+ * default behavior when handling unsupported JSON Schema features is to return
+ * a JDDF schema which accepts anything.
+ *
+ * @param schema a JSON Schema schema
+ */
 export default function toJDDF(schema: any): Schema {
   if (typeof schema !== "object") {
     return {};
