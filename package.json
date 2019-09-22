@@ -1,6 +1,7 @@
 {
   "name": "@jddf/json-schema-to-jddf",
   "version": "0.1.0",
+  "private": false,
   "description": "Convert JSON Schema schemas into JSON Data Definition Format",
   "main": "lib/index.js",
   "author": "Ulysse Carion <ulysse@segment.com>",
