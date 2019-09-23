@@ -4,6 +4,9 @@
   "description": "Convert JSON Schema schemas into JSON Data Definition Format",
   "author": "Ulysse Carion <ulysse@segment.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "bin": {
     "json-schema-to-jddf": "./bin/json-schema-to-jddf"
