@@ -1,11 +1,13 @@
 {
   "name": "@jddf/json-schema-to-jddf",
-  "version": "0.1.0",
-  "private": false,
+  "version": "0.1.1",
   "description": "Convert JSON Schema schemas into JSON Data Definition Format",
-  "main": "lib/index.js",
   "author": "Ulysse Carion <ulysse@segment.com>",
   "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "json-schema-to-jddf": "./bin/json-schema-to-jddf"
+  },
   "scripts": {
     "build": "tsc",
     "fmt": "prettier --write src/**/*.ts",
