@@ -1,4 +1,4 @@
-# json-schema-to-jddf [![npm](https://img.shields.io/npm/v/@jddf/jddf-to-json-schema.svg)](https://www.npmjs.com/package/@jddf/jddf-to-json-schema)
+# json-schema-to-jddf [![npm](https://img.shields.io/npm/v/@jddf/json-schema-to-jddf.svg)](https://www.npmjs.com/package/@jddf/json-schema-to-jddf)
 
 This repository contains `json-schema-to-jddf`, which comes in two forms:
 
