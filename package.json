@@ -5,6 +5,7 @@
   "author": "Ulysse Carion <ulysse@segment.com>",
   "license": "MIT",
   "files": [
+    "bin",
     "lib"
   ],
   "main": "lib/index.js",
