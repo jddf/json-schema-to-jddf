@@ -10,6 +10,28 @@ This repository contains `json-schema-to-jddf`, which comes in two forms:
   Definition Format objects. Internally, the `json-schema-to-jddf` CLI tool uses
   this package.
 
+## Installation
+
+To install this package as a CLI tool, run one of:
+
+```bash
+# If you're using yarn
+yarn global add @jddf/json-schema-to-jddf
+
+# If you're using npm
+npm install --global @jddf/json-schema-to-jddf
+```
+
+To install this package as a JavaScript dependency, run one of:
+
+```bash
+# If you're using yarn
+yarn add @jddf/json-schema-to-jddf
+
+# If you're using npm
+npm install @jddf/json-schema-to-jddf
+```
+
 ## Example Usage (CLI)
 
 Let's say you have a JSON Schema like the one below in a file called
